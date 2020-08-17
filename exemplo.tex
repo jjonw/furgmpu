@@ -1,17 +1,18 @@
 \documentclass{furgmpu}
+% COMPILAR PREFERENCIALMENTE USANDO PDFLaTeX
 
 \titulo{TÍTULO DO TRABALHO: SUBTÍTULO}
 \autores{
     % Aqui vão os autores/alunos
     % Colocar 2 por linha, separados por ponto e vírgula
-    SOBRENOME, Nome; SOBRENOME, Nome\\
-    SOBRENOME, Nome
+    SOBRENOME, Prenome; SOBRENOME, Prenome\\
+    SOBRENOME, Prenome (autor 3).
 }{
     % Aqui vão os orientadores
     SOBRENOME, Nome 
 }{
     % E-mail do primeiro autor
-    email-primeiro-autor@email.com 
+    email@email.com 
 }{   
     % Instituição dos autores
     Instituição
@@ -32,11 +33,13 @@
     
     \section{RESULTADOS E DISCUSSÕES}
     Os resultados devem ser apresentados de forma clara. Se forem dados parciais, devem constar no texto \cite{exemplo01}.  
-    Qualquer que seja o tipo de ilustração \cite{exemplo02}, sua identificação aparece na parte inferior, precedida da palavra designativa (desenho, esquema, fluxograma, fotografia, gráfico, mapa, organograma, planta, quadro, retrato, figura, imagem, entre outros), conforme exemplo da Figura \ref{fig:exemplo}. Após a ilustração, na parte inferior, indicar a fonte consultada. 
+    
+    Qualquer que seja o tipo de ilustração \cite{exemplo02}, sua identificação aparece na parte superior, precedida da palavra designativa (desenho, esquema, fluxograma, fotografia, gráfico, mapa, organograma, planta, quadro, retrato, figura, imagem, entre outros), conforme exemplo da Figura \ref{fig:exemplo}. Após a ilustração, na parte inferior, indicar a fonte consultada. 
     \begin{figure}[ht]
         \centering
-        \includegraphics[width=4.43cm, scale=1]{exemplo.jpg}
-        \caption{Site da FURG. Fonte: O(s) autor(es).}
+        \caption{Site da FURG.}
+        \includegraphics[width=4.13cm, scale=1]{exemplo.jpg}
+        \mbox{Fonte: O(s) autor(es).}
         \label{fig:exemplo}
     \end{figure}
     
@@ -60,6 +63,10 @@
     \section{CONSIDERAÇÕES FINAIS}
     Apresentar de forma sucinta as reflexões realizadas até o momento, os aspectos relevantes sobre o trabalho e as recomendações que se façam necessárias.
     
-
     \bibliography{referencias}
+
+    \noindent {\textbf OBS (REMOVER ANTES DE SUBMETER):} \\
+    1 - O trabalho não poderá ultrapassar três (03) páginas.\\
+    2 - Deverão ser elencados somente os trabalhos citados ao longo do resumo expandido. Vide ABNT NBR 6023 Referências - Elaboração (2002). 
+
 \end{document}

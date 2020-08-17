@@ -32,7 +32,7 @@
 
 \RequirePackage{etoolbox}
 \patchcmd{\thebibliography}{\section*}{\section}{}{}
-\addto{\captionsbrazilian}{\renewcommand{\refname}{REFERÊNCIAS}}
+\addto{\captionsbrazilian}{\renewcommand{\refname}{REFER{\^ E}NCIAS}}
 
 \RequirePackage[alf,abnt-emphasize=bf]{abntex2cite}
 %\citebrackets[]
@@ -59,7 +59,7 @@
     \renewcommand{\headrulewidth}{0pt}
     \renewcommand{\footrulewidth}{0pt}
     \fancyhead[L]{\includegraphics[height=1.8cm,scale=1]{furg/mpu_logo_esquerda.png}}
-    \fancyhead[C]{{\footnotesize Universidade Federal do Rio Grande - FURG\\\textbf{19\textsuperscript{a} Mostra da Produção Universitária - MPU}\\\textit{Rio Grande/RS, Brasil, 11 a 13 de novembro de 2020}\\ISSN: 2317-4420}}
+    \fancyhead[C]{{\footnotesize Universidade Federal do Rio Grande - FURG\\\textbf{19\textsuperscript{a} Mostra da Produ{\c c}{\~ a}o Universit{\' a}ria - MPU}\\\textit{Rio Grande/RS, Brasil, 11 a 13 de novembro de 2020}\\ISSN: 2317-4420}}
     \fancyhead[R]{\includegraphics[height=1.8cm,scale=1]{furg/mpu_logo_direita.png}}
     \fancyfoot[R]{\thepage}
 }
@@ -82,5 +82,3 @@
     \vspace{0.2cm}
     \renewcommand{\baselinestretch}{1.07}
 }
-
-%newcommand{\semdata}{\date{\vspace{-4.2ex}}}
