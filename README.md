@@ -1,5 +1,5 @@
-# furgmpu
-Modelo em LaTeX para trabalhos da MPU FURG.
+# Modelo MPU FURG
+Modelo em LaTeX para trabalhos da [Mostra de Produção Universitária da FURG](https://mpu.furg.br "Site MPU").
 
 
 # Importante: usuários de Windows
