@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Classe desenvolvida para a MPU FURG 2020
 %   email: jwieczynski@furg.br
-%   github: https://github.com/jjonw (para versões mais recentes)
+%   github: https://github.com/jjonw/furgmpu (para versões mais recentes)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
