@@ -9,4 +9,4 @@ Este modelo utiliza uma codificação de arquivos padrão para Linux/OSX, por is
 - Ou até o Bloco de notas das versões mais novas do Windows 10 (Superior a 2020).
 
 # Overleaf
-Se você utiliza o overleaf o link abaixo contém o modelo: 
+Se você utiliza o overleaf o modelo encontra-se [aqui](https://www.overleaf.com/latex/templates/furg-mpu-modelo/jnrncrwzkmbn "Modelo no Overleaf")
